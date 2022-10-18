@@ -1,4 +1,4 @@
-1. Line 12 will print `3`, because the length of the input array is 3 so that i will be increased three times, and after the `for` loop, it will end up at 3.<br>
+1. Line 12 will print `3`, because the length of the input array is 3 so that `i` will be increased three times, and after the `for` loop, it will end up at 3.<br>
 2. Line 13 will print `150`, because the last time we changed the value of `discountedPrice` is `prices[i] * (1 - discount)` at which `i` is 3 so that `discountedPrice` is 300 * (1 - 0.5) = 150.<br>
 3. Line 14 will print `150`, because `finalPrice` is just simply `Math.round(discountedPrice * 100) / 100` so that it would not change the value, which means it is 150 as well.<br>
 4. This function will return an array `[50, 100, 150]`, because the function returns an array with all the prices that are discounted which are half of the original prices.<br>
