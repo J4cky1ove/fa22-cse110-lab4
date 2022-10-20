@@ -8,5 +8,7 @@ let statistics = {
 };
 
 for (const property in statistics){
-    console.log(property + ': ' + statistics[property]);
+    if (property.startsWith('r') || statistics[property] % 2 != 0){
+        console.log(property + ': ' + statistics[property]);
+    }
 }
